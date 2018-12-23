@@ -1,0 +1,21 @@
+#menudiv {
+text-align:center;
+}
+
+ul.menu {
+list-style-type:none;
+}
+
+li.menuitem {
+position:relative;
+display:inline-block;
+}
+
+ul.submenu {
+display:none;
+position:absolute;
+}
+
+.menuitem:hover+ul.submenu {
+display:block;
+}
