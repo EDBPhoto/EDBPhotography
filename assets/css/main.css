@@ -4636,6 +4636,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
 				width: 48px;
@@ -5391,7 +5392,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		max-width: 45em;
+		max-width: 100%;
 	}
 
 		#cta .inner header {
@@ -5400,7 +5401,7 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			padding-right: 3em;
-			width: 70%;
+			width: 100%;
 		}
 
 			#cta .inner header p {
@@ -5606,6 +5607,7 @@ input, select, textarea {
 			background-attachment: scroll !important;
 		}
 
+		
 		@media screen and (max-width: 1920px) {
 
 			.main.style2 .content {
@@ -5645,7 +5647,7 @@ input, select, textarea {
 			}
 
 				.main.style1 h2 {
-					font-size: 3em;
+					font-size: 2em;
 				}
 
 			.main.style2 {
@@ -5684,6 +5686,7 @@ input, select, textarea {
 			}
 
 		}
+		
 		
 		#main > header {
 		padding: 12em 0 10em 0 ;
@@ -5747,6 +5750,7 @@ input, select, textarea {
 				#main > header h2 {
 					font-size: 1.25em;
 					margin: 0 0 1em 0;
+					
 				}
 
 		}
@@ -5955,3 +5959,29 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+	
+	/* More Testing */
+	.wrap {
+  display: flex;
+}
+
+.one {
+  width: 30%;
+  border: 1px solid green;
+}
+
+.two {
+  width: 70%;
+  border: 1px solid blue;
+}
+
+@media (max-width: 767px) {
+  .wrap {
+    flex-direction: column;
+  }
+  .one,
+  .two {
+    width: auto;
+  }
+}
+	

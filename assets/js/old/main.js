@@ -9,8 +9,6 @@
 	var	$window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
-		$wrapper = $('#page-wrapper'),
-		$banner = $('#banner'),
 		$all = $body.add($header);
 
 	// Breakpoints.
@@ -29,21 +27,6 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
-		
-	// Menu.
-			$('#menu')
-				.append('<a href="#menu" class="close"></a>')
-				.appendTo($body)
-				.panel({
-					delay: 500,
-					hideOnClick: true,
-					hideOnSwipe: true,
-					resetScroll: true,
-					resetForms: true,
-					side: 'right',
-					target: $body,
-					visibleClass: 'is-menu-visible'
-				});
 
 	// Touch mode.
 		if (browser.mobile)
@@ -201,8 +184,6 @@
 
 		}
 
-	
-	
 	// Events.
 		var resizeTimeout, resizeScrollTimeout;
 
