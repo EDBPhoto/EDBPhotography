@@ -2768,6 +2768,7 @@ input, select, textarea {
 			button.style2.down {
 				background-image: url("images/arrow.svg");
 			}
+			
 
 /* Form */
 
@@ -5602,6 +5603,34 @@ input, select, textarea {
 				.main.dark .button.style2.down {
 					background-image: url("images/poptrox-nav.svg");
 				}
+				
+				
+		.main.dark2 {
+			color: #ffffff;
+		}
+
+			.main.dark2 a {
+				color: inherit;
+			}
+
+			.main.dark2 .button.style2 {
+				border-color: #ffffff;
+			}
+
+				.main.dark2 .button.style2:hover {
+					background-color: rgba(255, 255, 255, 0.125);
+				}
+
+				.main.dark2 .button.style2:active {
+					background-color: rgba(255, 255, 255, 0.25);
+				}
+				
+				.main.dark2 .button.style2.down {
+					background-image: url("images/dark-arrow.svg");
+				}
+				
+				
+				
 
 		body.is-touch .main {
 			background-attachment: scroll !important;
