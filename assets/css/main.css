@@ -6896,6 +6896,13 @@ input, select, textarea {
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
+	#intro8 {
+		background: url("images/overlay.png"), url("../../images/intro8.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
 /* jump */
 
 	#jump {
